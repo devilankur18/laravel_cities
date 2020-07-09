@@ -337,7 +337,7 @@ class seedGeoFile extends Command
                 $item->data[14],
                 $item->data[4],
                 $item->data[5],
-                $item->data[17],
+                $item->data[17]
             );
 
             if (count($batch) >= $totalToCommit) {
